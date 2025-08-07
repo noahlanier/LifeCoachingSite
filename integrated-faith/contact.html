@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact — Integrated Faith</title>
+    <meta name="description" content="Contact Integrated Faith to inquire about Catholic life coaching or to schedule a consult." />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="icon" href="/assets/img/logo.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/index.html" class="brand">
+          <img src="/assets/img/logo.svg" alt="Integrated Faith logo" class="brand-logo" />
+          <span class="brand-name">Integrated Faith</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/coaching.html">Coaching</a></li>
+            <li><a href="/testimonials.html">Testimonials</a></li>
+            <li><a href="/blog.html">Resources</a></li>
+            <li><a href="/contact.html" class="active btn btn--primary">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1>Contact</h1>
+          <p class="lead">I’d love to hear from you. Share a bit about your goals and I’ll reply within 2 business days.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container grid grid-2">
+          <div>
+            <form class="form card" id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+              <div class="form-row">
+                <label for="interest">Area of interest</label>
+                <select id="interest" name="interest">
+                  <option value="Clarity Intensive">Clarity Intensive</option>
+                  <option value="Ongoing Formation">Ongoing Formation</option>
+                  <option value="Vocation / Leadership">Vocation / Leadership</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Share your goals, questions, or availability" required></textarea>
+              </div>
+              <input type="hidden" name="_subject" value="New inquiry — Integrated Faith" />
+              <button class="btn btn--primary" type="submit">Send message</button>
+              <p class="form-footnote">Prefer email? Write to <a href="mailto:hello@integratedfaith.example">hello@integratedfaith.example</a>.</p>
+            </form>
+          </div>
+          <div>
+            <div class="card">
+              <h2>Schedule a consult</h2>
+              <p>Start with a free 20‑minute conversation to discern together.</p>
+              <a class="btn btn--ghost" href="https://calendly.com/your-calendly/integrated-faith-intro" target="_blank" rel="noopener">Book on Calendly</a>
+            </div>
+
+            <div class="card">
+              <h2>Office hours</h2>
+              <p>By appointment. Serving clients across time zones via Zoom.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <div class="container narrow">
+          <p class="disclaimer">Privacy note: Your information is kept confidential and used only to respond to your inquiry.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="/assets/img/logo.svg" alt="Integrated Faith" />
+          <div>
+            <strong>Integrated Faith</strong>
+            <p>Catholic Life Coaching</p>
+          </div>
+        </div>
+        <nav aria-label="Footer">
+          <ul class="footer-nav">
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/coaching.html">Coaching</a></li>
+            <li><a href="/testimonials.html">Testimonials</a></li>
+            <li><a href="/blog.html">Resources</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container footer-meta">
+        <p class="disclaimer">Coaching is distinct from therapy, counseling, and spiritual direction. Referrals provided when appropriate.</p>
+        <p>© <span id="year"></span> Integrated Faith. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="/assets/js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Integrated Faith — Catholic Life Coaching">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#103a71" />
+      <stop offset="100%" stop-color="#1b5fb5" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c5a24a" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#c5a24a" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="-20" r="360" fill="url(#glow)" />
+
+  <g transform="translate(80,120)" fill="#ffffff">
+    <g transform="translate(0,0)">
+      <rect x="0" y="0" width="84" height="84" rx="18" fill="#ffffff" opacity="0.12" />
+      <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" transform="translate(18,12)">
+        <path d="M24 0 v48" />
+        <path d="M6 18 h36" />
+      </g>
+      <text x="42" y="78" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="20" fill="#ffffff" opacity="0.9">IF</text>
+    </g>
+
+    <text x="120" y="32" font-family="Cormorant Garamond, Georgia, serif" font-size="56" font-weight="600">Integrated Faith</text>
+    <text x="120" y="88" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="24" fill="#eaf1fb">Catholic Life Coaching</text>
+
+    <text x="0" y="170" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="28" fill="#ffffff" opacity="0.95">Whole‑life Catholic coaching for mind, body, and soul</text>
+    <text x="0" y="214" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="20" fill="#eaf1fb" opacity="0.95">Integrate prayer, purpose, and practical action.</text>
+  </g>
+</svg>
